@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <title>Sample Website</title>
+    <link rel="stylesheet" href="css-style/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Restaurant Reservations</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/reservation/add">New reservation</a>
+        <a href="/reservation/list">List reservations</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Reservations</h2>
+    <p>New</p>
+    <div>
+        <form action="addReservation">
+        <strong>Name:</strong><input type="text" name="name"><br>
+        <strong>People:</strong><input type="text" name="people"><br>
+        <strong>Date:</strong><input type="date" name="date"><br>
+        <strong>Time:</strong>
+            <select name="time">
+                <option value="1300">13:00</option>
+                <option value="1300">14:00</option>
+                <option value="1300">15:00</option>
+                <option value="1300">16:00</option>
+                <option value="1300">17:00</option>
+                <option value="1300">18:00</option>
+                <option value="1300">19:00</option>
+                <option value="1300">20:00</option>
+                <option value="1300">21:00</option>
+                <option value="1300">22:00</option>
+            </select><br>
+        <button type="submit">Submit</button>
+        </form>
+
+    </div>
+</main>
+
+
+
+<footer>
+
+</footer>
+
+</body>
+</html>
